@@ -1,0 +1,20 @@
+{
+  "name": "make-pizza",
+  "version": "1.0.0",
+  "description": "let's make pizza",
+  "main": "index.js",
+  "repository": "https://github.com/oguching/pizza.git",
+  "author": "oguchi nzekwe <oguching@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "xo --quiet && ava"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint-config-prettier": "^2.9.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "extends": ["prettier"]
+  }
+}
